@@ -1,0 +1,168 @@
+.phone-input {
+  padding: 7px 5px;
+  border: 1px solid black;
+  margin-top: 15px;
+  outline: none;
+  font-size: 20px;
+}
+
+* {
+  text-decoration: none;
+  color: black;
+}
+
+.phone-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.validation-false {
+  border: 1px solid red;
+}
+
+
+.validation-true {
+  border: 1px solid green;
+}
+
+.validation-message {
+  font-size: 14px;
+  align-self: flex-end;
+}
+
+.add-customer-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.form-buttons {
+  margin: 10px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.form-buttons button {
+  padding: .5rem 2rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(116, 190, 255);
+  padding: 1rem 0;
+  border-radius: .5rem;
+  transition: .2s ease-in-out;
+  margin: 20px 0;
+}
+
+.card-container:hover {
+  opacity: .8;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-column span {
+  margin: 3px 0;
+  padding: 0 1rem;
+}
+
+.home-container {
+  width: 50%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.home-add-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  margin-bottom: 20px;
+}
+
+
+.home-add-btn button {
+  background: transparent;
+  border: none;
+  background-color: springgreen;
+  padding: .5rem 1rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .1s ease-in-out;
+}
+
+.home-add-btn button:hover {
+  opacity: .8;
+}
+
+.card-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.card-btn button {
+  width: 5rem;
+  margin: 5px 0;
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  transition: .1s ease-in;
+  cursor: pointer;
+  border-radius: .3rem;
+  font-weight: bold;
+}
+
+.card-btn .edit {
+  background-color: rgb(176, 189, 0);
+
+}
+
+.card-btn .delete {
+  background-color: tomato;
+
+}
+
+.card-btn .view {
+  background-color: rgb(50, 44, 104);
+
+}
+
+.card-btn button:hover {
+  opacity: .8;
+}
+
+.view-customer-container {
+  width: 20rem;
+  border: 2px solid rgb(204, 204, 204);
+  background-color: aqua;
+  margin: 10rem auto 2rem;
+  padding: 0 2rem 2rem;
+}
+
+.view-customer div {
+  margin: 10px 0;
+}
+
+.icon {
+  cursor: pointer;
+  padding: 1rem 0;
+}
